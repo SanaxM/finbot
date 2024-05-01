@@ -106,7 +106,7 @@ def main():
     window.resizable(width=False, height=False)
 
     #logo + header
-    logo = tk.PhotoImage(file='CGI Logo.png')
+    logo = tk.PhotoImage(file='logo.png')
     logo_lbl = tk.Label(window, image=logo, border=0, justify="left")
     logo_lbl.pack(pady=5, side='top', anchor='w', padx=10)
 
